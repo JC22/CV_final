@@ -269,7 +269,7 @@ def main():
     toc = time.time()
     '''
     tic = time.time()
-    disp = computeDisp(args.input_left, args.input_right, 60)
+    disp = computeDisp(args.input_left, args.input_right, 61)
     toc = time.time()
     writePFM(args.output, disp)
     print('Elapsed time: %f sec.' % (toc - tic))
